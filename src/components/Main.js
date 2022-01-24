@@ -4,7 +4,8 @@ const Main = () => {
   return (
   <div>
    <p> MAIN COMPONENT</p>
-  </div>);
+  </div>
+  );
 };
 
 export default Main;

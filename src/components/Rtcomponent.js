@@ -1,12 +1,20 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Contact from "./Contact";
 import Main from "./Main";
 
 const Rtcomponent = () => {
   return (
+    <div>
+      
    <Router>
-       <Route patch="/main" element={<Main/>} />
+       <Routes>
+         <Route patch="/" element={<Main/>} />
+         <Route patch="/contact" element={<Contact/>} />
+       </Routes>
+  </Router>
+    </div>
 
-  </Router>);
+  );
 };
 
 export default Rtcomponent;
