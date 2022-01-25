@@ -4,14 +4,16 @@ import Main from "./Main";
 
 const Rtcomponent = () => {
   return (
-    <div>
-      
-   <Router>
-       <Routes>
-         <Route patch="/" element={<Main/>} />
-         <Route patch="/contact" element={<Contact/>} />
-       </Routes>
-  </Router>
+    <div className="rt">
+       
+       <Router>
+         <Routes>
+           <Route path="/" element={<Main/>}/>
+           <Route path="/contact" element={<Contact/>}/>
+         </Routes>
+       </Router>
+     
+
     </div>
 
   );
