@@ -1,9 +1,12 @@
 import React from 'react';
+import Getdata from './Getdata';
+
 
 const Main = () => {
   return (
-  <div>
-   <p> MAIN COMPONENT</p>
+  <div className='maincomp'>
+   <p className='pt-main'> MAIN COMPONENT</p>
+   <Getdata/>
   </div>
   );
 };

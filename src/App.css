@@ -2,11 +2,7 @@
   text-align: center;
   background: #282c34;
 }
-.rt{
 
-  height: 30vh;
-  background: #90e7ff;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -41,3 +37,108 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+.rt{
+  display: flex;
+  height:100vh;
+  background: rgb(71, 81, 134);
+
+}
+.rt-font{
+ display: flex; 
+ color: #ffffff;
+ gap: 10%;
+
+}
+.rt-icon{
+  display: flex; 
+  color: #ffffff;
+
+ 
+ }
+.navbar{
+  display: grid;
+  place-content: center;
+  background: #0e2b61;
+  border-radius: 10%;
+  height:100vh;
+  width: 10vw;
+}
+
+
+.maincomp{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(137, 243, 160);
+  
+
+}
+.pt-main{
+  display: grid;
+  place-content: center;
+  background:#08447c;
+  height: 10vh;
+
+}
+.abcomp{
+  width: 100%;
+  background: rgb(65, 83, 69);
+}
+.contuser{
+  display: grid;
+  background: rgb(159, 245, 89);
+}
+.nameuser{
+  display: grid; 
+  place-content: center;
+  height: 10vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: #0e2b61;
+  color:antiquewhite
+}
+
+.wrapper-grid{
+  background: rgb(116, 55, 55);
+  /*width: 100vw;*/
+  display: inline-grid;
+  height: 50vh;
+  place-content: center;
+}
+.cont-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  position: relative;
+  gap: 5vh;
+  width: 100%;
+  background: black;
+  overflow-y: auto;
+  overflow-x: auto;
+
+}
+
+.grid-user{
+  display: grid;
+  place-content: center;
+  background: #0c61ff;
+  height: 20vh;
+  margin:1vh;
+ 
+}
+.li-num{
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  color: #ffffff;
+}
+ .pag{
+   display: flex;
+ }

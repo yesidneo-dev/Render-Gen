@@ -2,7 +2,6 @@ import './App.css';
 
 import Rtcomponent from "./components/Rtcomponent"
 
-
 function App() {
   return (
     <div className="App">
